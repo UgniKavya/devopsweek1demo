@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('clone') {
-            steps {
-                git 'https://github.com/UgniKavya/devopsweek1demo.git'
-            }
-        }
+    
         stage('compile')
         {
             steps
